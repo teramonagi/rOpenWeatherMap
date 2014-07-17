@@ -12,4 +12,6 @@ Suggests:
     testthat
 Imports:
     RCurl,
-    rjson
+    rjson,
+    Rcpp
+LinkingTo: Rcpp

@@ -5,4 +5,4 @@
 #' @name rOpenWeatherMap
 #' @docType package
 #' @import RCurl rjson
-NULL  
+NULL
