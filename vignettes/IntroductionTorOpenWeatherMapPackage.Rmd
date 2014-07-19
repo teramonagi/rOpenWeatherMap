@@ -1,0 +1,16 @@
+---
+title: "Introduction to rOpenWeatherMap package"
+author: "teramonagi"
+date: "Saturday, July 19, 2014"
+output: html_document
+---
+<!--
+%\VignetteEngine{knitr::knitr}
+%\VignetteIndexEntry{Introduction to rOpenWeatherMap package}
+-->
+
+You can download Weather information using *location name* like the following:
+```{r}
+library(rOpenWeatherMap)
+getCurrentWeatherByCityName("Tokyo,Japan")
+```

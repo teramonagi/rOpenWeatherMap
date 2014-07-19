@@ -8,8 +8,10 @@ Maintainer: teramonagi<teramonagi@gmail.com>
 Description: Get the data from Open Wheather Map(http://openweathermap.org/) by
     their API.
 License: MIT + file LICENSE
+VignetteBuilder: knitr
 Suggests:
-    testthat
+    testthat,
+    knitr
 Imports:
     RCurl,
     rjson,
